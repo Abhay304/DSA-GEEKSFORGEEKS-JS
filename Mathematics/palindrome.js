@@ -3,9 +3,9 @@ function isPalindrome(x) {
   let rev = 0;
   let temp = x;
   while (temp !== 0) {
-    let lastDigit = temp % 10; // trick to find the last digit
+    let lastDigit = temp % 10; // trick to find the last digit , it will be remainder
     rev = rev * 10 + lastDigit; // trick to add next digits
-    temp = Math.floor(temp / 10); // trick to remove the last digit
+    temp = Math.floor(temp / 10); // trick to remove the last digit, it will be quotient
   }
 
   return rev === x;
