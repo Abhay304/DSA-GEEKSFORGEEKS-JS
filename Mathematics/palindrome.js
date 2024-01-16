@@ -1,3 +1,4 @@
+// Trick to reverse also
 function isPalindrome(x) {
   let rev = 0;
   let temp = x;
