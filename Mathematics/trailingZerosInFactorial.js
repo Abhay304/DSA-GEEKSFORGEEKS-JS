@@ -43,12 +43,13 @@ function trailingZerosInFactorial3(x) {
   }
   return count;
 }
+// input = 125
 // 1st Iteration - count = 0 + 25 = 25;
 // 2nd Iteration - count = 25 + 5 = 30;
 // 3rd Iteration - count = 30 +1 = 31
-// 4th Iteration -
 
-// complexity - it will be linear 0(logn).
+// complexity - it will be 0(logn).
 console.log("Method 1 -", trailingZerosInFactorial1(15));
 console.log("Method 2 -", trailingZerosInFactorial2(15));
 console.log("Method 3 -", trailingZerosInFactorial3(125));
+console.log("Method 3 -", trailingZerosInFactorial3(15));
