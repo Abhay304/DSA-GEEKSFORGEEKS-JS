@@ -36,3 +36,5 @@ console.log("-------");
 console.log("Method -2", checkForPrimeNumber1(2));
 console.log("Method -2", checkForPrimeNumber1(7));
 console.log("Method -2", checkForPrimeNumber1(9));
+
+module.exports = checkForPrimeNumber1;
