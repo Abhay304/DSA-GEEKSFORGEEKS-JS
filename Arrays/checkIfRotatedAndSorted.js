@@ -18,7 +18,7 @@ function checkIfRotatedAndSorted(arr, num) {
 }
 // basically the hint is , in a single , it will not increase twice
 // For this Hint check this - https://www.youtube.com/watch?v=e22ns5G0qKY
-const arr = [3, 4, 2, 1];
+const arr = [3, 4, 6, 1, 2, 5];
 console.log(checkIfRotatedAndSorted(arr, arr.length));
 
 // second method
@@ -33,7 +33,7 @@ function checkIfRotatedAndSorted1(arr, num) {
     firstPointer++;
   }
 
-  //   we don't need this edge case also as 3+1%4 = 0
+  //   we don't need this edge case also as 5+1%6 = 0, so if a[last] is greater then a[0] then this is also false
   //   if (arr[0] < arr[num - 1]) {
   //     return false;
   //   }
