@@ -22,4 +22,6 @@ function countOnes(arr, N) {
   }
 }
 const arr = [1, 1, 1, 1, 1, 1, 1, 0];
+const arr1 = [0, 0, 0, 0, 0, 1, 1, 1];
 console.log(countOnes(arr, arr.length));
+// console.log(countOnes(arr1, arr1.length));
