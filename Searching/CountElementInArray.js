@@ -17,3 +17,4 @@ const arr1 = [10, 10, 10, 10, 10, 20];
 console.log("--------------------");
 console.log(countElementInArray(arr, arr.length, 20));
 console.log(countElementInArray(arr1, arr1.length, 10));
+console.log(countElementInArray(arr1, arr1.length, 18880));

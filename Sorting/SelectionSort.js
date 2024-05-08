@@ -1,4 +1,6 @@
 // Increasing order
+// find the min element from the array and swap with current i value
+// which is increasing on every count.
 function SelectionSort(arr, N) {
   for (let i = 0; i < N - 1; i++) {
     let min_index = i;

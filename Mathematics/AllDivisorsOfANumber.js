@@ -13,7 +13,7 @@ function AllDivisorOfANumber(num) {
 // Method 2
 function AllDivisorOfANumber1(num) {
   let opt = [];
-  //   all the factors are in pairs
+  // all the factors are in pairs
   // so we are printing pairs
   for (let i = 1; i * i <= num; i++) {
     if (num % i === 0) {

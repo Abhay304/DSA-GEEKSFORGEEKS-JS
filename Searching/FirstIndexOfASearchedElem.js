@@ -48,6 +48,7 @@ function firstIndexOfASearchedElem1(arr, n, d) {
       }
     }
   }
+  return -1;
 } // complexity O(Log N)
 
 const arr = [10, 10, 10, 20, 20, 20, 20, 40, 50];

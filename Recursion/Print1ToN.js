@@ -1,9 +1,9 @@
-function PrintNto1(N) {
+function Print1toN(N) {
   if (N === 0) {
     return;
   }
-  PrintNto1(N - 1);
+  Print1toN(N - 1);
   console.log(N);
 }
 
-console.log("PrintNto1", PrintNto1(16));
+console.log("Print1toN", Print1toN(16));

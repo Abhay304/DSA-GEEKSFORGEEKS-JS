@@ -8,15 +8,14 @@ function myPow(x, n) {
 //  complexity O(n)
 console.log("Method 1", myPow(4, 5));
 console.log("Method 1", myPow(4, 2));
-console.log("Method 2", myPow(3, 7));
+console.log("Method 1", myPow(3, 7));
 
 // Method 2 - recursive method
 function myPow1(x, n) {
   if (n === 0) {
     return 1;
   }
-  let temp = myPow1(x, Math.floor(n / 2));
-  temp = temp * temp;
+  let temp = myPow1(x * x, Math.floor(n / 2));
   if (n % 2 === 0) {
     return temp;
   } else {
