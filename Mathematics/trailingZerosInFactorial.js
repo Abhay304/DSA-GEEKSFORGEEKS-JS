@@ -50,6 +50,8 @@ function trailingZerosInFactorial3(x) {
 
 // complexity - it will be 0(logn).
 console.log("Method 1 -", trailingZerosInFactorial1(15));
+console.log("Method 1 -", trailingZerosInFactorial1(25));
 console.log("Method 2 -", trailingZerosInFactorial2(15));
 console.log("Method 3 -", trailingZerosInFactorial3(125));
 console.log("Method 3 -", trailingZerosInFactorial3(15));
+console.log("Method 3 -", trailingZerosInFactorial3(25));

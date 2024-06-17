@@ -6,7 +6,7 @@ function MergeSort(arr) {
   let leftSide = arr.slice(0, mid);
   let rightSide = arr.slice(mid, arr.length);
 
-  return merge(MergeSort(leftSide), MergeSort(rightSide), mid);
+  return merge(MergeSort(leftSide), MergeSort(rightSide));
 }
 function merge(leftArr, rightarr) {
   let res = [];
@@ -58,6 +58,6 @@ function merge(leftArr, rightarr) {
   return res;
 }
 
-const arr = [5, 6, 6, 10, 10, 15, 15, 20, 40, 60];
+const arr = [25, 6, 6, 10, 10, 15, 15, 20, 40, 60];
 
 console.log(MergeSort(arr));
