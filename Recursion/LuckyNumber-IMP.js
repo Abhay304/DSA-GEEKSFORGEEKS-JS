@@ -1,7 +1,7 @@
 // VVI Question
 // asked in microsoft
 // https://www.youtube.com/watch?v=eUiLzMPRamM
-
+let val = 2;
 function LuckyNumber(n) {
   if (n < val) return true;
   if (n % val == 0) return false;
@@ -9,8 +9,8 @@ function LuckyNumber(n) {
   val++;
   return LuckyNumber(n);
 }
-let val = 2;
-console.log(LuckyNumber(5));
+
+console.log(LuckyNumber(3));
 val = 2;
 console.log(LuckyNumber(19));
 val = 2;
