@@ -1,5 +1,5 @@
 // GCD or HCF of two numbers
-
+//HCF is the greatest number which divides each of the two or more numbers.
 // Method 1
 function findGCD1(x1, x2) {
   let num = 1;

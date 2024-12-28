@@ -1,5 +1,7 @@
 const findGCD3 = require("./GcdOrHcfOfTwoNumbers");
 // Method 1
+
+//LCM is the smallest number that two or more numbers can divide into evenly.
 function LCM(x1, x2) {
   for (let i = Math.max(x1, x2); i <= x1 * x2; i++) {
     if (i % x1 === 0 && i % x2 === 0) {

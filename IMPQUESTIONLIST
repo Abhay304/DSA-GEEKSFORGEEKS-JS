@@ -1,5 +1,8 @@
+0. Swap Nodes in LinkedList
 1. LINKED LIST swapKthNodeFromEnd
 2. Reverse Linked List
 3. Linked List deleteWithOutHeadPointer
 4. delete mid of a stack
 5. Maximum of all subarrays of size K
+6. DigitsInFactorial
+7. trailingZerosInFactorial1
