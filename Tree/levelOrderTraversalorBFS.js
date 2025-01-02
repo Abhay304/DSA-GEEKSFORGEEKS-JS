@@ -46,13 +46,13 @@ class Queue {
 }
 
 // optimized way
-function levelOrderTraversal(root) {
+function levelOrderTraversalBFS(root) {
     let queue = new Queue();
     queue.enqueue(root);
     let res = [];
     while (!queue.isEmpty()) {
         let curr = queue.dequeue();
-        res.push(curr.data)
+        res.push(curr.treeNodeVal)
         if (curr.left) {
             queue.enqueue(curr.left)
         }
@@ -77,4 +77,4 @@ root.right = new Node(30);
 root.right.left = new Node(40);
 root.right.right = new Node(50);
 root.right.right.right = new Node(60);
-levelOrderTraversal(root);
+console.log(levelOrderTraversalBFS(root));
